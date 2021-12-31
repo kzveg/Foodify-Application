@@ -1,0 +1,75 @@
+
+
+.topBar{
+display: flex;
+border: 1px solid black;
+height: 50px;
+justify-content: center;
+background-image: url('https://static.make.ua/catalog/14/background-399__1547467946__615.jpg');
+
+}
+
+.dishItems{
+    display: flex;
+    justify-content: center;
+    background-attachment:fixed;
+    background-image: url('https://wallbox.ru/wallpapers/main/201133/tekstury-54483b1aa7df.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.css-e53awj-MuiStack-root{
+    margin: 10px;
+}
+
+.showRecept, .myFvoriteDishs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-attachment:fixed;
+  background-image: url('https://wallbox.ru/wallpapers/main/201133/tekstury-54483b1aa7df.jpg');
+  width: 100vw;
+  background-size: 100%;
+  padding-bottom: 650px;
+}
+
+
+.dish{
+    margin: 10px
+}
+
+.showRecept{
+    height: 100;
+    width: 100vw;
+    background-image: url('https://wallbox.ru/wallpapers/main/201133/tekstury-54483b1aa7df.jpg');
+    background-size:100%;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 200px;
+  
+}
+
+#one{
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/977/444/888/background-black-color-texture-wallpaper-preview.jpg');
+}
+ 
+.close{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(15, 14, 14, 0.986);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.closeAddDish{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: red;
+    border-radius: 15px;
+}
+
+.addCustomDish{
+    width: 31pc;
+}
